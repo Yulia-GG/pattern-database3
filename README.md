@@ -11,13 +11,33 @@ master-master - позволяет копировать данные с одно
 
 Выполните конфигурацию master-slave репликации, примером можно пользоваться из лекции.
 
-```
-SELECT COUNT(film_id) 
-FROM film 
-WHERE length > (SELECT AVG(length) FROM film);
-```
+![image](https://github.com/Yulia-GG/pattern-database3/blob/main/1.png)
 
-![image](https://github.com/Yulia-GG/pattern-database2/blob/main/задание2.png)
+![image](https://github.com/Yulia-GG/pattern-database3/blob/main/2.png)
+
+![image](https://github.com/Yulia-GG/pattern-database3/blob/main/3.png)
+
+![image](https://github.com/Yulia-GG/pattern-database3/blob/main/4.png)
+
+![image](https://github.com/Yulia-GG/pattern-database3/blob/main/5.png)
+
+![image](https://github.com/Yulia-GG/pattern-database3/blob/main/6.png)
+
+![image](https://github.com/Yulia-GG/pattern-database3/blob/main/7.png)
+
+![image](https://github.com/Yulia-GG/pattern-database3/blob/main/8.png)
+
+![image](https://github.com/Yulia-GG/pattern-database3/blob/main/9.png)
+
+![image](https://github.com/Yulia-GG/pattern-database3/blob/main/10.png)
+
+![image](https://github.com/Yulia-GG/pattern-database3/blob/main/11.png)
+
+![image](https://github.com/Yulia-GG/pattern-database3/blob/main/12.png)
+
+![image](https://github.com/Yulia-GG/pattern-database3/blob/main/13.png)
+
+![image](https://github.com/Yulia-GG/pattern-database3/blob/main/14.png)
 
 ## Дополнительные задания (со звездочкой*)
 
