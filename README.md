@@ -39,17 +39,3 @@ master-master - позволяет копировать данные с одно
 
 ![image](https://github.com/Yulia-GG/pattern-database3/blob/main/14.png)
 
-## Дополнительные задания (со звездочкой*)
-
-### Задание 3*.
-
-Выполните конфигурацию master-master репликации. Произведите проверку.
-
-```sql
-SELECT staff_id, COUNT(rental_id),
-IF(COUNT(rental_id) > 8000, 'Да', 'Нет') AS Премия
-FROM payment
-GROUP BY staff_id;
-```
-
-![image](https://github.com/Yulia-GG/pattern-database2/blob/main/задание4.png)
